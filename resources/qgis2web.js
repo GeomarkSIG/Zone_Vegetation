@@ -104,7 +104,7 @@ closer.onclick = function() {
 };
 var overlayPopup = new ol.Overlay({
     element: container,
-	autoPan: true
+	autoPan: false
 });
 map.addOverlay(overlayPopup)
     
@@ -1186,4 +1186,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var attributionControl = document.getElementsByClassName('bottom-attribution')[0];
     if (attributionControl) {
         bottomRightContainerDiv.appendChild(attributionControl);
+
     }
