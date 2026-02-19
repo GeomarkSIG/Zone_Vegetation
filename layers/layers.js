@@ -25,6 +25,8 @@ var lyr_Zonedevgtation_1 = new ol.layer.Vector({
                 popuplayertitle: 'Zone de végétation',
                 interactive: true,
     title: 'Zone de végétation<br />\
+lyr_Zonedevgtation_1.setOpacity(0.500000);
+            
     <img src="styles/legend/Zonedevgtation_1_0.png" /> Bananeraie<br />\
     <img src="styles/legend/Zonedevgtation_1_1.png" /> Bois<br />\
     <img src="styles/legend/Zonedevgtation_1_2.png" /> Canne à sucre<br />\
