@@ -6,7 +6,7 @@ function categories_Zonedevgtation_1(feature, value, size, resolution, labelText
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case 'Bananeraie':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(247,225,55,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,255,51,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(247,225,55,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,255,51,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -14,7 +14,7 @@ function categories_Zonedevgtation_1(feature, value, size, resolution, labelText
                     break;
 case 'Bois':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(227,26,28,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(118,26,28,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(227,26,28,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(118,26,28,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -22,7 +22,7 @@ case 'Bois':
                     break;
 case 'Canne à sucre':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(53,170,75,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(53,170,151,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(53,170,75,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(53,170,151,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -38,7 +38,7 @@ case 'Forêt fermée de conifères':
                     break;
 case 'Forêt fermée de feuillus':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(56,128,54,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(77,175,74,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(56,128,54,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(77,175,74,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -54,7 +54,7 @@ case 'Haie':
                     break;
 case 'Lande ligneuse':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,127,0,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(251,154,153,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,127,0,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(251,154,153,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -62,7 +62,7 @@ case 'Lande ligneuse':
                     break;
 case 'Verger':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(251,154,153,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,127,0,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(251,154,153,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,127,0,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -76,7 +76,7 @@ case 'Vigne':
                               labelFill, placement, bufferColor,
                               bufferWidth)
     }),new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(251,154,153,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.748}),fill: new ol.style.Fill({color: 'rgba(251,31,200,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(251,154,153,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.748}),fill: new ol.style.Fill({color: 'rgba(251,31,200,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -84,7 +84,7 @@ case 'Vigne':
                     break;
 default:
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(93,210,113,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(93,210,113,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
